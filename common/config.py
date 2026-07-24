@@ -38,3 +38,7 @@ sim = {"jido_saiban"       : None,        # 自動採番
        "syukeiyaku_nm"     : None,        # 主契約者名
        "donyu_yy"          : None,        # 導入年度(削除予定)
        "sisetu_no_del"     : None}        # 施設番号(削除予定)
+
+# 楽楽販売のID/PWDの変数（初期値はすべてNoneで統一）
+rakuraku = {"id"           : None,        # ID
+            "pw"           : None}        # PWD
