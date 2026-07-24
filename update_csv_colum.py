@@ -132,6 +132,7 @@ class PROC_MAIN:
                     new_row[12] = config.sim["keiyaku_plan"]            # 契約プラン
                     new_row[13] = config.sim["kyakudasi_plan"]          # 客出しプラン
                     new_row[22] = config.sim["jigyou"]                  # 事業
+                    new_row[25] = config.sim["dounyu_ki"]               # 導入期
                     new_row[29] = config.sim["donyu_yy"]                # 導入年度(削除予定)
 
                     writer.writerow(new_row)
